@@ -11,15 +11,15 @@ setInterval(function() {
 	let testMinutes = minutes + 1
 	let testHours = hours + 1
 	let testDays = days + 1
-	if(testSeconds === 60){
+	if(testSeconds === 61){
 		seconds = 0;
 		minutes += 1
 	}
-	if(testMinutes === 60){
+	if(testMinutes === 61){
 		minutes = 0;
 		hours += 1
 	}
-	if(testHours === 24){
+	if(testHours === 25){
 		hours = 0;
 		days += 1
 	}
