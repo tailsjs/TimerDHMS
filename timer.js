@@ -48,6 +48,6 @@ setInterval(function() {
 	if(seconds > 9){
 		strSec = `${seconds}`
 	}
-     console.log(`Время со старта скрипта:\n${strDay}:${strHou}:${strMin}:${strSec}\nДни\Часы\Минуты\Секунды`)
+     console.log(`Время со старта скрипта:\n${strDay}:${strHou}:${strMin}:${strSec}\nДни:Часы:Минуты:Секунды`)
 	
 }, 1000);
